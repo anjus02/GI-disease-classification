@@ -3,20 +3,25 @@ Gastrointestinal (GI) diseases account for the majority of disability-adjusted l
 
 Considering the importance and prevalence of GI diseases worldwide, we trained an effective CNN-based multiclass classification model to classify wireless camera endoscopy (WCE) images of three GI diseases (polyps, ulcer, esophagitis) and normal colon. The ResNet50-based CNN model achieved highest average accuracy of approximately 99.80% on the training set (100% precision and approximately 99% recall) and accuracies of 99.50% and 99.16% on the validation and additional test set. 
 
-**Package requirements:**
-    a) python = 3.9 
-    b) numpy
-    c) pandas
-    d) tensorflow=2.11.0
-    e) keras = 2.11.0
-    f) scikit-learn
-    g) scipy
+## Package requirements:
+* python = 3.9 
+* numpy
+* pandas
+* tensorflow=2.11.0
+* keras = 2.11.0
+* scikit-learn
+* scipy
     
-**Repository files: **
-    a) Readme file
-    b) Trained model: generated-model.h5 file 
-    c) Folder named 'images' where images to be classified are to be saved
-    d) Prediction program: prediction_crc.py
+## Repository files:
+The files contained in this repository are as follows:
+* ``Readme file``: General information
+* ``generated-model.h5``: Trained model
+* ``prediction_crc.py``: Main script to run prediction
+* Folder named ``images``: Folder where images to be classified are to be saved
+
+## Usage:
+
+> **_NOTE:_** Remember to activate the corresponding conda environment before running the script, if applicable.
 
 **Input**: Image file (image.jpg)
 
