@@ -3,7 +3,6 @@ Gastrointestinal (GI) diseases account for the majority of disability-adjusted l
 
 Considering the importance and prevalence of GI diseases worldwide, we trained an effective CNN-based multiclass classification model to classify wireless camera endoscopy (WCE) images of three GI diseases (polyps, ulcer, esophagitis) and normal colon. The ResNet50-based CNN model achieved highest average accuracy of approximately 99.80% on the training set (100% precision and approximately 99% recall) and accuracies of 99.50% and 99.16% on the validation and additional test set. 
 
-
 **Package requirements:**
     a) python = 3.9 
     b) numpy
